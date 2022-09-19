@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import lombok.*;
 
 /**
- * Copyright Alex Klimchuk (c) 2019.
+ * Copyright Alex Klimchuk (c) 30.11.2019.
  */
 @Data
 @Entity

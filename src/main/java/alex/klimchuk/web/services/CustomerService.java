@@ -5,7 +5,7 @@ import alex.klimchuk.web.domain.Customer;
 import java.util.List;
 
 /**
- * Copyright Alex Klimchuk (c) 2019.
+ * Copyright Alex Klimchuk (c) 30.11.2019.
  */
 public interface CustomerService {
 
