@@ -1,4 +1,4 @@
-### Spring MVC Rest
+### Spring MVC REST
 Simple Web Application written in Java and Spring to understand REST architecture and Spring Framework concept.
 
 
