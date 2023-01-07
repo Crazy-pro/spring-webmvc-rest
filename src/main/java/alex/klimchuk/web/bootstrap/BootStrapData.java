@@ -2,14 +2,17 @@ package alex.klimchuk.web.bootstrap;
 
 import alex.klimchuk.web.domain.Customer;
 import alex.klimchuk.web.repositories.CustomerRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 /**
  * Copyright Alex Klimchuk (c) 30.11.2019.
  */
+@Slf4j
 @Component
 public class BootStrapData implements CommandLineRunner {
+    
     private final CustomerRepository customerRepository;
 
     public BootStrapData(CustomerRepository customerRepository) {
@@ -18,7 +21,7 @@ public class BootStrapData implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        System.out.println("Loaded Customers!");
+        log.info("Loaded Customers!");
 
         Customer customer1 = new Customer();
         customer1.setFirstName("Alex");
@@ -35,7 +38,7 @@ public class BootStrapData implements CommandLineRunner {
         customer3.setLastName("True");
         customerRepository.save(customer3);
 
-        System.out.println("Customers Saved: " + customerRepository.count());
+        log.info("Customers Saved: " + customerRepository.count());
     }
 
 }
