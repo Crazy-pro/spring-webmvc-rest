@@ -20,5 +20,5 @@ Simple Web Application written in Java and Spring to understand REST architectur
 - Tools: Lombok, Postman, Maven, Git, HTTPs, XML, YAML, JSON;
 - Others: GitHub.
 
-[![CircleCI](https://app.circleci.com/pipelines/github/Crazy-pro/spring-mvc-rest.svg?style=svg)](https://app.circleci.com/pipelines/github/Crazy-pro/spring-mvc-rest)
-[![CodeCov](https://codecov.io/pipelines/github/Crazy-pro/spring-mvc-rest/branch/master/graph/badge.svg)](https://codecov.io/pipelines/github/Crazy-pro/spring-mvc-rest)
+[![CircleCI](https://circleci.com/gh/Crazy-pro/spring-mvc-rest.svg?style=svg)](https://app.circleci.com/gh/Crazy-pro/spring-mvc-rest)
+[![CodeCov](https://codecov.io/gh/Crazy-pro/spring-mvc-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/Crazy-pro/spring-mvc-rest)
