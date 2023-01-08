@@ -6,7 +6,7 @@
     <artifactId>spring-mvc-rest</artifactId>
     <version>0.0.7-SNAPSHOT</version>
     <name>spring-mvc-rest</name>
-    <description>Demo project for Spring MVC 5</description>
+    <description>Demo project for Spring WebMVC 5</description>
 
     <properties>
         <java.version>18</java.version>

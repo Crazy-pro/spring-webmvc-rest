@@ -13,12 +13,12 @@ Simple Web Application written in Java and Spring to understand REST architectur
 ### Technologies:
 - Programming language: Java 18;
 - Frameworks:
-  - Spring (Boot, Core, Data, Web, Test);
+  - Spring (Boot, Core, Data, WebMVC, Test);
   - Hibernate.
 - IDE: IntelliJ IDEA;
 - Database: H2;
 - Tools: Lombok, Postman, Maven, Git, HTTPs, XML, YAML, JSON;
-- Others: GitHub.
+- Others: GitHub, CircleCI, CodeCov.
 
 [![CircleCI](https://circleci.com/gh/Crazy-pro/spring-mvc-rest.svg?style=svg)](https://app.circleci.com/gh/Crazy-pro/spring-mvc-rest)
 [![CodeCov](https://codecov.io/gh/Crazy-pro/spring-mvc-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/Crazy-pro/spring-mvc-rest)
