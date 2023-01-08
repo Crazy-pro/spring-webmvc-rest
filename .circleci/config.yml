@@ -17,7 +17,7 @@ jobs:
           command: mvn -B test
       - codecov/upload:
           file: './coverage/coverage.yml'
-          token: 584d8488-b40c-4aa5-a1a0-27f636c5f077
+          CODECOV_TOKEN: 584d8488-b40c-4aa5-a1a0-27f636c5f077
 
 workflow:
   version: 2.1
