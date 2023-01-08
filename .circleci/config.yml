@@ -15,12 +15,16 @@ jobs:
       - run:
           name: Run tests and collect coverage
           command: mvn -B test
-      - codecov/upload:
-          file: './codecov.yml'
+      - codecov/upload
 
 workflow:
   version: 2.1
   build-test:
     jobs:
       - build
-      
+
+workflows:
+  upload-to-codecov:
+    jobs:
+      - checkout
+      - codecov/upload
