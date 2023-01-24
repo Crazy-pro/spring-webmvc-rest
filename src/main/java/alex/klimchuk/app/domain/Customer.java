@@ -1,13 +1,14 @@
-package alex.klimchuk.web.domain;
+package alex.klimchuk.app.domain;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import lombok.*;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
- * Copyright Alex Klimchuk (c) 30.11.2019.
+ * Copyright Alex Klimchuk (c) 2023.
  */
 @Data
 @Entity
