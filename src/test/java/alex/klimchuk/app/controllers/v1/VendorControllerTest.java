@@ -5,8 +5,6 @@ import alex.klimchuk.app.api.v1.model.VendorListDto;
 import alex.klimchuk.app.services.VendorService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.jupiter.api.extension.Extension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -29,7 +27,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Copyright Alex Klimchuk (c) 2023.
  */
-@ExtendWith(Extension.class)
 @WebMvcTest(controllers = {VendorController.class})
 public class VendorControllerTest {
 

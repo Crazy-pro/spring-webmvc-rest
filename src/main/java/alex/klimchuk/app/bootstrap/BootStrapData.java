@@ -78,9 +78,8 @@ public class BootStrapData implements CommandLineRunner {
                 .build();
         customerRepository.save(customer3);
 
-        log.info("Customers Saved: " + customerRepository.count());
+        log.info("Customers Loaded: " + customerRepository.count());
     }
-
 
     private void loadVendors() {
         Vendor vendor1 = new Vendor();
@@ -91,7 +90,7 @@ public class BootStrapData implements CommandLineRunner {
         vendor2.setName("Vendor 2");
         vendorRepository.save(vendor2);
 
-        log.info("Vendors Saved: " + vendorRepository.count());
+        log.info("Vendors Loaded: " + vendorRepository.count());
     }
 
 }

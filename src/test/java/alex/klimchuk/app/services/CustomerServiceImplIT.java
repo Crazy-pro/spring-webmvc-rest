@@ -26,7 +26,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * Copyright Alex Klimchuk (c) 2023.
  */
 @DataJpaTest
-@ExtendWith(Extension.class)
 public class CustomerServiceImplIT {
 
     @Autowired

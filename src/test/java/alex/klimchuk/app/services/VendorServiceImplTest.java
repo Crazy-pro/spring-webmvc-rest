@@ -20,7 +20,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.core.IsEqual.equalTo;
-import static org.junit.jupiter.api.Assertions.assertThrowsExactly;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.BDDMockito.given;
@@ -35,7 +35,7 @@ public class VendorServiceImplTest {
     public static final String NAME_1 = "My Vendor";
     public static final long ID_1 = 1L;
     public static final String NAME_2 = "My Vendor";
-    public static final long ID_2 = 1L;
+    public static final long ID_2 = 2L;
 
     @Mock
     VendorRepository vendorRepository;
@@ -66,10 +66,7 @@ public class VendorServiceImplTest {
     public void testGetVendorByIdNotFound() throws ResourceNotFoundException {
         given(vendorRepository.findById(anyLong())).willReturn(Optional.empty());
 
-        assertThrowsExactly(ResourceNotFoundException.class,
-                () -> {
-                    throw new ResourceNotFoundException("Error message");
-                });
+        assertThrows(ResourceNotFoundException.class, () -> vendorService.getVendorById(ID_1));
         then(vendorRepository).should(times(1)).findById(anyLong());
     }
 

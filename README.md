@@ -1,5 +1,5 @@
-### Spring MVC REST
-Simple Web Application written in Java and Spring to understand REST architecture and Spring Framework concept.
+### Spring WebMVC REST
+Spring Web Application written to understand RESTFUL WebServices and Spring WebMVC Framework concept.
 
 
 
@@ -17,7 +17,7 @@ Simple Web Application written in Java and Spring to understand REST architectur
   - Hibernate.
 - IDE: IntelliJ IDEA;
 - Database: H2;
-- Tools: Lombok, Postman, Maven, Git, HTTPs, XML, YAML, JSON;
+- Tools: JUnit 5, Mockito, Lombok, Postman, Swagger 2, Maven, Git, HTTPs, XML, YAML, JSON;
 - Others: GitHub, CircleCI, CodeCov, SonarCloud.
 
 [![CircleCI](https://circleci.com/gh/Crazy-pro/spring-mvc-rest.svg?style=svg)](https://app.circleci.com/gh/Crazy-pro/spring-mvc-rest)
