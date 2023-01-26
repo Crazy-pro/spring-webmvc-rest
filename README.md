@@ -18,7 +18,7 @@ Spring Web Application written to understand RESTful WebServices and Spring WebM
 - IDE: IntelliJ IDEA;
 - Database: H2;
 - Tools: JUnit 5, Mockito, Lombok, Postman, Swagger 2, Maven, Git, HTTPs, XML, YAML, JSON;
-- Others: GitHub, CircleCI, CodeCov, SonarCloud.
+- Others: GitHub, CircleCI, CodeCov, SonarLint, SonarCloud.
 
 [![CircleCI](https://circleci.com/gh/Crazy-pro/spring-webmvc-rest.svg?style=svg)](https://app.circleci.com/gh/Crazy-pro/spring-webmvc-rest)
 [![CodeCov](https://codecov.io/gh/Crazy-pro/spring-webmvc-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/Crazy-pro/spring-webmvc-rest)
