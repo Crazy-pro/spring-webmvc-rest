@@ -1,5 +1,5 @@
 ### Spring WebMVC REST
-Spring Web Application written to understand RESTful WebServices and Spring WebMVC Framework concept. 
+Spring Web Application written to understand RESTful WebServices and Spring WebMVC Framework concept.  
 
 
 
