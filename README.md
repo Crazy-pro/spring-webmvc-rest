@@ -1,7 +1,7 @@
 ### Spring WebMVC REST
 Spring Web Application written to understand RESTful WebServices and Spring WebMVC Framework concept.  
 
-
+ 
 
 ### How to start:
 1. Install and run any IDE for working with Java.
